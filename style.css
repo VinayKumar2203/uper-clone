@@ -1,0 +1,129 @@
+*{
+    padding :0%;
+    margin: 0%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    
+}
+.navheader{
+    color: white;
+    /* padding: 20px; */
+    background-color: black;
+} 
+.nav{
+    /* color: white; */
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.nav div{
+    padding: 20px 30px;
+    
+
+}
+.nav> div a{
+    margin: 15px;
+   font-weight: 600;
+   cursor: pointer;
+   
+}
+.nav> div button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+span{
+    font-size:x-large;
+}
+/* second nav start here */
+.nav-second{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 50px;
+  
+}
+#nav-secondpara{
+    display: block;
+   /* text-align: center; */
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+.nav-second h1{
+   font-size: 60px;
+   font-weight: 700;
+}
+.nav-second >div>img{
+    height: 650px;
+    width: 600px;
+}
+.nav-second >div>input{
+    width: 400px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.nav-second >div>button{
+    font-size: 21px; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.center1{
+    display: flex;
+    /* margin: 100px; */
+    padding: 150px;
+    /* margin-right: 20px; */
+    
+}
+.center1>div>img{
+    height: 550px;
+    width: 550px;
+    margin-right: 100px;
+}
+.center1para{
+    font-weight: 600;
+    margin: 10px;
+
+}
+.center1para h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.center1para p{
+    margin-bottom: 20px;
+}
+.center1para button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+#box1{
+    padding: 150px;
+    /* border: 1px  solid red; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+#box1 div{
+    height: auto;
+    width: auto;
+
+}
+.insidebox{
+    display: flex;
+}
+.insidebox div{
+    
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
